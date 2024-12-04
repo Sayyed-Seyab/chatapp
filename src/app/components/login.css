@@ -1,0 +1,178 @@
+/* .login{
+    display:flex
+}
+.loginForm{
+    width:50%;
+    height:100vh;
+    background-color: yellow;
+}
+
+.loginImage{
+    width:50%;
+    height: 100vh;
+    background-color: green;
+}
+.formimage{
+    width: 100px;
+} */
+
+/* .loginparentDev{
+    background-color: #f4f9f4;
+} */
+.loginparentDev{
+    position: relative;
+}
+.login {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:20px;
+    height: 90vh;
+    flex-wrap: wrap;
+    
+  }
+  .logo{
+    display: inline;
+    width:300px;
+  }
+  .logoImg{
+    display:inline;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+  }
+  .loginForm {
+    padding: 0 0px 0px 50px;
+    flex: 1;
+   width: 500px;
+   height: 100vh;
+   
+ 
+  }
+  .ScialLogin{
+    text-align: center;
+  }
+  /* * "or" text with horizontal lines */ */
+.loginForm .ScialLogin {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.loginForm .ScialLogin .option {
+  flex: 1;
+  text-align: center;
+  position: relative;
+  color: #353535;
+  margin: 5 10px;
+}
+
+.loginForm .ScialLogin .option::before,
+.loginForm .ScialLogin .option::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  width: 40%;
+  height: 1px;
+  background-color: #ddd;
+}
+
+.loginForm .ScialLogin .option::before {
+  left: 0;
+}
+
+.loginForm .ScialLogin .option::after {
+  right: 0;
+}
+  
+  .loginForm h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .loginForm p {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  .loginForm input[type="email"],
+  .loginForm input[type="password"] {
+    width: 96%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    font-size: 1rem;
+   
+  }
+  .lable input[type="checkbox"] {
+    margin-bottom: 15px;
+  }
+  
+  .loginForm Button {
+    min-width: 100%;
+    padding: 10px;
+    background-color:  #66C293;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .loginForm button:hover {
+    background-color: #59d897;
+  }
+  .googlebtn:hover  {
+    cursor: pointer;
+  }
+  .twitterbtn:hover {
+    cursor: pointer;
+  }
+  
+  .loginImage {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #353535;
+   
+   
+    
+  }
+  .formSideImage{
+    height: 100ch;
+  }
+  
+  .loginImage p {
+    position: absolute;
+    bottom: 10px;
+    font-size: 1rem;
+    color: #555;
+  }
+
+  .formSideImage{
+    width:100%;
+    
+  }
+  .socialbtns{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* Media query for hiding image on smaller screens */
+@media (max-width: 950px) {
+    .loginImage {
+      display: none;
+    }
+    .loginForm{
+        margin-top: 93px;
+    }
+  
+    .login {
+      justify-content: center;
+    }
+  }
