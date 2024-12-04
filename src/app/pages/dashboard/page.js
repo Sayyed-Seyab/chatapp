@@ -4,7 +4,7 @@ export default function page() {
   return (
     <div>
         <div className="sidebar">
-            sidebar
+            sidebarr 
         </div>
         <div className="topmenu">
             topmenu
