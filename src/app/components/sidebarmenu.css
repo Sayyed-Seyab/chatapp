@@ -1,0 +1,38 @@
+.menu li {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    cursor:pointer;
+  }
+  .menu{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 50px;
+  }
+  .logo{
+    text-align: center;
+    height: 15vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    cursor:pointer;
+  
+
+  }
+
+  .list{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 85vh;
+
+  }
+
+  .logout{
+    text-align: center;
+    margin-bottom: 20px;
+    cursor:pointer;
+  }

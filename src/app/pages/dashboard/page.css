@@ -1,0 +1,36 @@
+.dashboard{
+    display: flex;
+    flex-wrap: wrap;
+}
+.col-1{
+    width:6%;
+   
+}
+.col-2{
+    width:94%;
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+}
+.sidebar{
+    border-right: 1px solid #efe4e4;
+    
+}
+.topmenu{
+background-color: yellow; 
+height: 86px;
+}
+.chat{
+display:flex;
+width: 100%;
+}
+.chatlist{
+width:60%;
+border-right: 1px solid #efe4e4;
+}
+.wlcomMsg{
+width: 100%;
+}
+.profile{
+    width: 50%;
+}

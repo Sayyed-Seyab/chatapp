@@ -1,0 +1,122 @@
+.filter-container {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 5px;
+    border-bottom: 1px solid #efe4e4;
+    
+}
+
+.filter-item {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.filter-item input[type="checkbox"] {
+    margin-right: 10px; /* Space between checkbox and label */
+    width: 18px;
+    height: 18px;
+    border-color: 1px  #fff !important; /* White border for checkbox */
+    border-radius: 34px; /* Rounded corners */
+    accent-color: #66C293; /* Customize checked color */
+  }
+
+.filter-item label {
+    margin-left: 5px;
+}
+
+.filter-icons {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    gap: 15px;
+}
+
+.filter-icon {
+   
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.filter-icon i {
+    font-size: 16px;
+}
+.chat-container {
+    max-width: 100%;
+    margin: 0 auto;
+    max-height: 79vh; /* Set maximum height for scrollable area */
+    overflow:scroll;
+    border: 1px solid #f0f0f0;
+    font-family: "Inter", sans-serif;
+ 
+}
+.chat-container::-webkit-scrollbar { /* Target Webkit browsers */
+    width: 5px; /* Set scrollbar width */
+    height: 5px; /* Set scrollbar height */
+  }
+
+.chat-item {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    border-bottom: 1px solid #f0f0f0;
+    
+}
+
+.chat-item:last-child {
+    border-bottom: none;
+}
+
+.chat-item img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.chat-info {
+    flex: 1;
+}
+
+.chat-info .name {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+    cursor: pointer;
+}
+
+.chat-info .message-preview {
+    font-size: 14px;
+    color: #888;
+    cursor: pointer;
+}
+
+.chat-timestamp {
+    font-size: 12px;
+    color: #aaa;
+    white-space: nowrap;
+}
+
+.chat-status {
+    margin-left: 5px;
+    width: 20px;
+    height: 20px;
+    background: #66C293;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.chatinfo {
+    text-align: center;
+}
